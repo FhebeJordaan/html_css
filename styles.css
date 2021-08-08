@@ -1,0 +1,25 @@
+#circle {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(20, 90, 220);
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    
+    border: 3px solid red;
+}

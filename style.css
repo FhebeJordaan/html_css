@@ -1,0 +1,4 @@
+/*This is the external css it is in a seperate file than the HTML.*/
+h1 {
+    color: red;
+}

@@ -1,0 +1,115 @@
+html {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    background-color: tomato;
+    transition: .3s;
+}
+
+div:hover {
+    background-color: tomato;
+    transition: .3s;
+    color: white;
+}
+
+.block-one {
+    background-color: #222;
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.block-two {
+    background-color: forestgreen;
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.block-three {
+    background-color: #222;
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.block-four {
+    background-color: rgb(226, 226, 226);
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    height: 800px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+
+}
+
+.block-five {
+    background-color: rgb(194, 194, 194);
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    height: 800px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+
+}
+
+.footer {
+    background-color: #222;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+@media screen and (max-width: 700px) {
+    .block-one, .blocktwo, .block-three {
+        width: 100%;
+        text-align: left;
+    }
+
+    .block-four, .block-five {
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .block-one, .block-two, .block-three {
+        width: 100%;
+        text-align: left;
+        background-color: black;
+        color: white;
+    }
+
+    .block-four, .block-five {
+        height: auto;
+        width: 100%;
+    }
+
+}
